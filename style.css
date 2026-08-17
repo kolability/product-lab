@@ -7,11 +7,18 @@
   --color-muted: #666666;
 }
 
+
 body {
     margin: 0;
     padding: 40px 40px;
     font-family: Arial, sans-serif;
   background: var(--color-background);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
 }
 
 .card {
@@ -44,6 +51,12 @@ body {
 }
 
 .amount {
+  margin: 12px 0;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.liters {
   margin: 12px 0;
   font-size: 36px;
   font-weight: 800;
